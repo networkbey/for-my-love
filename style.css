@@ -1,0 +1,57 @@
+body{
+background-image: url(wallpaper.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+*{
+
+font-family: "Lucida Console", "Courier New", monospace;
+
+
+
+}
+p{
+
+text-align: center;
+margin-top: 4%;
+color:white
+}
+@keyframes one {
+  from {transform: translateX(-300px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+
+.div{
+  animation-name: one;
+  animation-duration: 2s;
+ width: 80%;
+ height: 30%;
+ background-color:rgba(108, 123, 139, 0.2);
+ margin-top: 13%;
+ margin-left: 10%;
+ border-radius: 5%;
+ box-shadow: 0px 10px 3px black;
+ transition: 1000ms;
+
+
+
+
+
+}
+.div:hover{
+background-color:rgba(255, 48, 48, 0.2);
+transform:translateY(-10px);
+
+}
+h2{
+
+  color:antiquewhite;
+  text-align: center;
+
+
+}
